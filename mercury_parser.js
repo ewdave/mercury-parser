@@ -1,8 +1,6 @@
 "use strict";
 
 var axios = require("axios");
-require("dotenv").config();
-
 var MERCURY_API = "https://mercury.postlight.com/parser?url=";
 
 /**
