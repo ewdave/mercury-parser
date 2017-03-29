@@ -32,6 +32,7 @@ mercury.parse('https://some-url')
 	.catch(err => {
 		console.log('Error: ', err);
 	})
+```
 
 // Available attributes
 
