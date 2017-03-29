@@ -1,0 +1,12 @@
+{
+  "name": "mercury-parser",
+  "version": "1.0.0",
+  "description": "API Wrapper for Mercury Web Parser",
+  "main": "mercury_parser.js",
+  "author": "Wale Eseyin",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "dotenv": "^4.0.0"
+  }
+}
