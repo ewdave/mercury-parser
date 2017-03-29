@@ -33,7 +33,7 @@ mercury.parse('https://some-url')
 	console.log('Error: ', err);
 })
 
-// Available attributes
+// Available attributes 
 
 response.title
 response.author
