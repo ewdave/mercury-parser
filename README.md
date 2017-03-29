@@ -23,10 +23,10 @@ const mercury = require('mercury-parser')(API_KEY);
 ## Examples
 
 ```javascript
-mercury.parse('https://some-url').then(response =
-	console.log(response)
-	}).catch(err => {
-		console.log('Error: ', err);
+mercury.parse('https://some-url').then(response =>
+  console.log(response)
+  }).catch(err => {
+    console.log('Error: ', err);
 })
 ```
 
