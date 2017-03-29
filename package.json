@@ -3,7 +3,18 @@
   "version": "1.0.0",
   "description": "API Wrapper for Mercury Web Parser",
   "main": "mercury_parser.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewdave/mercury-parser"
+  },
+  "keywords": [
+    "mercury parser",
+    "api",
+    "wrapper",
+    "mercury web parser"
+  ],
   "author": "Wale Eseyin",
+  "homepage": "https://github.com/ewdave/mercury-parser",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.15.3"
