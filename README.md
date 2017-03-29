@@ -22,21 +22,17 @@ const mercury = require('mercury-parser')(API_KEY);
 ```
 ## Examples
 
-```js
-mercury.parse('https://some-url')
-	.then(response => {
-		console.log(response)
-		//const wordCount = response.word_count
-		//console.log(wordCount);
-	})
-	.catch(err => {
-		console.log('Error: ', err);
-	})
-```
+```javascript
+mercury.parse('https://some-url').then(response => {
+	console.log(response)
+	//const wordCount = response.word_count
+	//console.log(wordCount);
+}).catch(err => {
+	console.log('Error: ', err);
+})
 
 // Available attributes
 
-```json
 response.title
 response.author
 response.date_published
